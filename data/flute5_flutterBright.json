@@ -1,0 +1,109 @@
+{
+	"pattrstorage" : 	{
+		"name" : "flute",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"Q" : [ 18.209999 ],
+					"breath_noise" : [ 70 ],
+					"breath_pres" : [ 50 ],
+					"fb_mouthpiece" : [ 89 ],
+					"feedback_amt" : [ 0.08 ],
+					"filt_Q" : [ 0.1 ],
+					"filt_freq" : [ 3071.0 ],
+					"filt_gain" : [ 0.03 ],
+					"filtered" : [ 109 ],
+					"flutt_amount" : [ 15.0 ],
+					"flutt_random" : [ 0.06 ],
+					"flutt_rate" : [ 0, "," ],
+					"flutt_rate2" : [ 0.0 ],
+					"formant" : [ 811.0 ],
+					"gain" : [ 0.98 ],
+					"hole_pos" : [ 0.301 ],
+					"reson" : [ 121 ],
+					"reson_bendin" : [ 0.64 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"Q" : [ 18.209999 ],
+					"breath_noise" : [ 157 ],
+					"breath_pres" : [ 49 ],
+					"fb_mouthpiece" : [ 1 ],
+					"feedback_amt" : [ 0.0 ],
+					"filt_Q" : [ 1.31 ],
+					"filt_freq" : [ 1967.0 ],
+					"filt_gain" : [ 1.4 ],
+					"filtered" : [ 105 ],
+					"flutt_amount" : [ 2.42 ],
+					"flutt_random" : [ 0.06 ],
+					"flutt_rate" : [ 0, "," ],
+					"flutt_rate2" : [ 0, "," ],
+					"formant" : [ 1054.0 ],
+					"gain" : [ 0.96 ],
+					"hole_pos" : [ 0.322 ],
+					"reson" : [ 138 ],
+					"reson_bendin" : [ 0.071 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"Q" : [ 18.209999 ],
+					"breath_noise" : [ 114 ],
+					"breath_pres" : [ 42 ],
+					"fb_mouthpiece" : [ 65 ],
+					"feedback_amt" : [ 0.01 ],
+					"filt_Q" : [ 0.62 ],
+					"filt_freq" : [ 18114.0 ],
+					"filt_gain" : [ 0.5 ],
+					"filtered" : [ 109 ],
+					"flutt_amount" : [ 15.0 ],
+					"flutt_random" : [ 0.06 ],
+					"flutt_rate" : [ 0.0 ],
+					"flutt_rate2" : [ 0.0 ],
+					"formant" : [ 811.0 ],
+					"gain" : [ 0.96 ],
+					"hole_pos" : [ 0.322 ],
+					"reson" : [ 121 ],
+					"reson_bendin" : [ 0.07 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"Q" : [ 18.210197 ],
+					"breath_noise" : [ 110 ],
+					"breath_pres" : [ 45 ],
+					"fb_mouthpiece" : [ 82 ],
+					"feedback_amt" : [ 0.017054 ],
+					"filt_Q" : [ 1.17806 ],
+					"filt_freq" : [ 94.860107 ],
+					"filt_gain" : [ 15.802665 ],
+					"filtered" : [ 108 ],
+					"flutt_amount" : [ 76.663322 ],
+					"flutt_random" : [ 0.0602 ],
+					"flutt_rate" : [ 5.286837 ],
+					"flutt_rate2" : [ 0.251802 ],
+					"formant" : [ 819.415283 ],
+					"gain" : [ 0.962257 ],
+					"hole_pos" : [ 0.252 ],
+					"reson" : [ 121 ],
+					"reson_bendin" : [ 0.909299 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
