@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 55.0, 123.0, 1724.0, 892.0 ],
+		"rect" : [ 102.0, 171.0, 1231.0, 761.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 13.0,
@@ -37,6 +37,43 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-48",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1615.0, 611.0, 38.0, 23.0 ],
+					"style" : "",
+					"text" : "write"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-44",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1006.0, 137.5, 150.0, 21.0 ],
+					"style" : "",
+					"text" : "50 samples @ 20 Hz"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-40",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 905.0, 182.0, 150.0, 21.0 ],
+					"style" : "",
+					"text" : "3 s delay"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -181,35 +218,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-115",
-					"linecount" : 5,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1381.0, 222.0, 150.0, 79.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 4,
-					"presentation_rect" : [ 594.0, 195.0, 187.0, 65.0 ],
-					"style" : "",
-					"text" : "1. Rest\n2. Arms open + lean bk & rise\n3. Left (R open)\n4. Right (L open)"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-122",
-					"linecount" : 6,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 553.0, 760.0, 156.0, 94.0 ],
-					"style" : "",
-					"text" : "Removal of Yaws\nAddition of phase unwrapper (toDo)\nOptional EMG in the mix\n(good points for thesis/article)"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-117",
 					"linecount" : 3,
 					"maxclass" : "comment",
@@ -217,7 +225,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 602.0, 621.0, 150.0, 50.0 ],
 					"style" : "",
-					"text" : "add EMGabs\nNB: switching after training crashes Max"
+					"text" : "switch to add EMGabs\nNB: switching after training crashes Max"
 				}
 
 			}
@@ -538,22 +546,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-201",
-					"linecount" : 4,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1366.0, 207.0, 150.0, 65.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 4,
-					"presentation_rect" : [ 491.0, 195.0, 95.0, 65.0 ],
-					"style" : "",
-					"text" : "1. Right Open\n2. Arms open\n3. Left (45°)\n4. Right (45°)"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-112",
 					"maxclass" : "panel",
 					"numinlets" : 1,
@@ -819,7 +811,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 881.5, 66.0, 150.0, 21.0 ],
+					"patching_rect" : [ 787.5, 34.0, 150.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 503.5, 59.0, 150.0, 21.0 ],
 					"style" : "",
@@ -946,7 +938,7 @@
 					"presentation_rect" : [ 339.0, 99.0, 18.0, 162.0 ],
 					"size" : 10,
 					"style" : "",
-					"value" : 3
+					"value" : 1
 				}
 
 			}
@@ -959,7 +951,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 881.5, 110.5, 45.0, 23.0 ],
+					"patching_rect" : [ 787.5, 84.5, 45.0, 23.0 ],
 					"style" : "",
 					"text" : "sel 46"
 				}
@@ -974,7 +966,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "int", "int", "int" ],
-					"patching_rect" : [ 881.5, 87.5, 59.5, 23.0 ],
+					"patching_rect" : [ 787.5, 55.5, 59.5, 23.0 ],
 					"style" : "",
 					"text" : "key"
 				}
@@ -1019,7 +1011,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 828.0, 192.0, 68.0, 23.0 ],
+					"patching_rect" : [ 832.0, 182.0, 68.0, 23.0 ],
 					"style" : "",
 					"text" : "pipe 3000"
 				}
@@ -1034,7 +1026,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 918.5, 174.0, 83.0, 23.0 ],
+					"patching_rect" : [ 905.0, 137.5, 83.0, 23.0 ],
 					"style" : "",
 					"text" : "counter 1 50"
 				}
@@ -1077,7 +1069,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 787.5, 208.0, 20.0, 20.0 ],
+					"patching_rect" : [ 787.5, 212.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 497.5, 140.0, 45.0, 45.0 ],
 					"style" : ""
@@ -1212,7 +1204,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 905.0, 533.0, 68.0, 23.0 ],
+					"patching_rect" : [ 931.0, 527.0, 68.0, 23.0 ],
 					"style" : "",
 					"text" : "s MLclass"
 				}
@@ -1471,7 +1463,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 905.0, 457.0, 83.0, 56.0 ],
+					"patching_rect" : [ 931.0, 451.0, 83.0, 56.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 328.0, 342.5, 83.0, 56.0 ],
 					"style" : ""
@@ -1601,7 +1593,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 905.0, 298.0, 40.0, 22.0 ],
+					"patching_rect" : [ 931.0, 292.0, 40.0, 22.0 ],
 					"style" : "",
 					"text" : "r svm"
 				}
@@ -1646,7 +1638,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 905.0, 335.0, 48.0, 22.0 ],
+					"patching_rect" : [ 931.0, 329.0, 48.0, 22.0 ],
 					"style" : "",
 					"text" : "ml.svm"
 				}
@@ -1803,7 +1795,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1868,7 +1860,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-24",
-									"int" : 1,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 2,
@@ -2198,7 +2189,7 @@
 					"presentation_rect" : [ 43.5, 164.0, 18.0, 162.0 ],
 					"size" : 10,
 					"style" : "",
-					"value" : 3
+					"value" : 1
 				}
 
 			}
@@ -2721,6 +2712,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-47", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-139", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-48", 0 ]
 				}
 
 			}
