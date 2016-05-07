@@ -9,9 +9,9 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 883.0, 823.0 ],
+		"rect" : [ 34.0, 78.0, 1523.0, 829.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -55,7 +55,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 537.0, 14.0, 100.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 146.249969, 726.5, 100.0, 35.0 ],
+					"presentation_rect" : [ 120.249969, 726.5, 100.0, 35.0 ],
 					"style" : ""
 				}
 
@@ -1594,13 +1594,13 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "fv.deflate.maxpat",
-				"bootpath" : "~/Documents/phd/KineToolbox/KTproj/patchers",
+				"bootpath" : "~/Documents/Max 7/Library/_FV_Max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fv.myodatamulti.maxpat",
-				"bootpath" : "~/Documents/phd/KineToolbox/KTproj/patchers",
+				"bootpath" : "~/Documents/Max 7/Library/_FV_Max/Kineslimina 2016/Kineslimina2016 project/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
