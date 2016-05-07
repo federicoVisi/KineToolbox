@@ -1,0 +1,89 @@
+{
+	"pattrstorage" : 	{
+		"name" : "flute",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"Q" : [ 18.209999 ],
+					"breath_noise" : [ 114 ],
+					"breath_pres" : [ 41 ],
+					"filt_Q" : [ 0.62 ],
+					"filt_freq" : [ 18114.0 ],
+					"filt_gain" : [ 0.5 ],
+					"filtered" : [ 109 ],
+					"flutt_amount" : [ 15.0 ],
+					"flutt_random" : [ 0.06 ],
+					"flutt_rate" : [ 5.1 ],
+					"formant" : [ 811.0 ],
+					"gain" : [ 0.96 ],
+					"reson" : [ 121 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"Q" : [ 18.209999 ],
+					"breath_noise" : [ 155 ],
+					"breath_pres" : [ 38 ],
+					"filt_Q" : [ 0.62 ],
+					"filt_freq" : [ 16707.0 ],
+					"filt_gain" : [ 0.08 ],
+					"filtered" : [ 89 ],
+					"flutt_amount" : [ 2.42 ],
+					"flutt_random" : [ 0.06 ],
+					"flutt_rate" : [ 21.290001 ],
+					"formant" : [ 811.0 ],
+					"gain" : [ 0.96 ],
+					"reson" : [ 105 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"Q" : [ 18.209999 ],
+					"breath_noise" : [ 104 ],
+					"breath_pres" : [ 28 ],
+					"filt_Q" : [ 0.62 ],
+					"filt_freq" : [ 16441.0 ],
+					"filt_gain" : [ 0.08 ],
+					"filtered" : [ 94 ],
+					"flutt_amount" : [ 15.0 ],
+					"flutt_random" : [ 0.06 ],
+					"flutt_rate" : [ 5.1 ],
+					"formant" : [ 811.0 ],
+					"gain" : [ 1.38 ],
+					"reson" : [ 129 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"Q" : [ 18.209999 ],
+					"breath_noise" : [ 120 ],
+					"breath_pres" : [ 41 ],
+					"filt_Q" : [ 0.62 ],
+					"filt_freq" : [ 6852.0 ],
+					"filt_gain" : [ 0.08 ],
+					"filtered" : [ 107 ],
+					"flutt_amount" : [ 15.0 ],
+					"flutt_random" : [ 0.06 ],
+					"flutt_rate" : [ 5.1 ],
+					"formant" : [ 811.0 ],
+					"gain" : [ 0.96 ],
+					"reson" : [ 125 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
